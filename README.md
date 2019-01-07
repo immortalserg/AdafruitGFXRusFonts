@@ -4,21 +4,17 @@
 
 Скопируйте папку FontsRus в каталог с библиотекой Adafruit-GFX-Library
 
-подключите в скетче нужный шрифт:
+подключите в скетче нужный шрифт (без использования букв Ё ё):
 
 ```с++
 #include "FontsRus/CrystalNormal12.h"
 #include "FontsRus/Bat8.h"
 
-tft.setFont(&CrystalNormal12pt8b);
-tft.setTextSize(1);
-tft.setCursor (2, 145);
+tft.setFont(&CrystalNormal12pt8b); // выбор шрифта
 tft.print("Съешь еще этих маленьких булочек и выпей чаю");
-tft.setFont();
-
-tft.setFont(&Bat8pt7b);
-tft.setTextSize(1);
-tft.setCursor (2, 200);
-tft.print("01234");
-tft.setFont();
+tft.setFont(); // выбор шрифта по умолчанию
 ```
+
+С использованием букв Ё ё использовать функцию
+
+

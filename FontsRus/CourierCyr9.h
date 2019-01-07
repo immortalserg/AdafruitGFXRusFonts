@@ -1,4 +1,4 @@
-const uint8_t CourierCyrillic9pt8bBitmaps[] PROGMEM = {
+const uint8_t CourierCyr9pt8bBitmaps[] PROGMEM = {
   0x49, 0x24, 0x80, 0xFC, 0x99, 0x99, 0x90, 0x28, 0x50, 0xA7, 0xF4, 0x89,
   0x12, 0x7F, 0x48, 0x91, 0x22, 0x40, 0x10, 0x21, 0xFE, 0x28, 0x50, 0x10,
   0x1E, 0x03, 0x06, 0x1F, 0xC1, 0x02, 0x00, 0x71, 0x12, 0x24, 0x47, 0x67,
@@ -140,7 +140,7 @@ const uint8_t CourierCyrillic9pt8bBitmaps[] PROGMEM = {
   0x88, 0x40, 0x20, 0x50, 0x3F, 0xF0, 0x36, 0x00, 0x07, 0x8C, 0x28, 0x14,
   0x07, 0xFD, 0x00, 0x40, 0x1F, 0xC0 };
 
-const GFXglyph CourierCyrillic9pt8bGlyphs[] PROGMEM = {
+const GFXglyph CourierCyr9pt8bGlyphs[] PROGMEM = {
   {     0,   0,   0,  11,    0,    1 },   // 0x20 ' '
   {     0,   3,  10,  11,    4,   -9 },   // 0x21 '!'
   {     4,   4,   5,  11,    3,   -9 },   // 0x22 '"'
@@ -304,9 +304,9 @@ const GFXglyph CourierCyrillic9pt8bGlyphs[] PROGMEM = {
   {  1648,   9,  12,  11,    1,  -11 },   // 0xC0
   {  1662,   9,  10,  11,    1,   -9 } }; // 0xC1
 
-const GFXfont CourierCyrillic9pt8b PROGMEM = {
-  (uint8_t  *)CourierCyrillic9pt8bBitmaps,
-  (GFXglyph *)CourierCyrillic9pt8bGlyphs,
+const GFXfont CourierCyr9pt8b PROGMEM = {
+  (uint8_t  *)CourierCyr9pt8bBitmaps,
+  (GFXglyph *)CourierCyr9pt8bGlyphs,
   0x20, 0xC1, 15 };
 
 // Approx. 2815 bytes

@@ -1,4 +1,4 @@
-const uint8_t BahamasPSMT7pt8bBitmaps[] PROGMEM = {
+const uint8_t Bahamas7pt8bBitmaps[] PROGMEM = {
   0xFF, 0x40, 0xB6, 0xD0, 0x14, 0x28, 0xD3, 0xF3, 0x46, 0xBF, 0x94, 0x28,
   0xD0, 0x23, 0xE9, 0x4E, 0x38, 0xE5, 0x2F, 0x88, 0x60, 0x92, 0x22, 0x44,
   0x49, 0x06, 0x40, 0x08, 0x02, 0x70, 0xD1, 0x12, 0x24, 0x38, 0x7C, 0x20,
@@ -104,7 +104,7 @@ const uint8_t BahamasPSMT7pt8bBitmaps[] PROGMEM = {
   0x33, 0x98, 0x43, 0xFF, 0xD0, 0x60, 0xC1, 0xC0, 0x8D, 0x01, 0xE6, 0x68,
   0xD6, 0x21, 0x66, 0x78 };
 
-const GFXglyph BahamasPSMT7pt8bGlyphs[] PROGMEM = {
+const GFXglyph Bahamas7pt8bGlyphs[] PROGMEM = {
   {     0,   0,   0,   4,    0,    1 },   // 0x20 ' '
   {     0,   1,  10,   3,    0,   -9 },   // 0x21 '!'
   {     2,   3,   4,   5,    1,   -9 },   // 0x22 '"'
@@ -268,9 +268,9 @@ const GFXglyph BahamasPSMT7pt8bGlyphs[] PROGMEM = {
   {  1223,   6,  11,   7,    0,  -10 },   // 0xC0
   {  1232,   7,   9,   8,    1,   -8 } }; // 0xC1
 
-const GFXfont BahamasPSMT7pt8b PROGMEM = {
-  (uint8_t  *)BahamasPSMT7pt8bBitmaps,
-  (GFXglyph *)BahamasPSMT7pt8bGlyphs,
+const GFXfont Bahamas7pt8b PROGMEM = {
+  (uint8_t  *)Bahamas7pt8bBitmaps,
+  (GFXglyph *)Bahamas7pt8bGlyphs,
   0x20, 0xC1, 20 };
 
 // Approx. 2381 bytes

@@ -7,14 +7,23 @@
 подключите в скетче нужный шрифт (без использования букв Ё ё):
 
 ```с++
-#include "FontsRus/CrystalNormal12.h"
-#include "FontsRus/Bat8.h"
+#include "FontsRus/TimesNRCyr10.h"
 
-tft.setFont(&CrystalNormal12pt8b); // выбор шрифта
+tft.setFont(&TimesNRCyr10pt8b); // выбор шрифта
 tft.print("Съешь еще этих маленьких булочек и выпей чаю");
 tft.setFont(); // выбор шрифта по умолчанию
 ```
 
-С использованием букв Ё ё использовать функцию
+С использованием букв Ё ё и при использовании стандартного шрифта использовать функцию utf8rus2, положите файл utf8rus2.ino в папку с скетчем
+
+```с++
+#include "FontsRus/TimesNRCyr10.h"
+
+tft.setFont(&TimesNRCyr10pt8b); // выбор шрифта
+tft.print(utf8rus2("Съешь еще этих маленьких булочек и выпей чаю"));
+tft.setFont(); // выбор шрифта по умолчанию
+```
+
+
 
 

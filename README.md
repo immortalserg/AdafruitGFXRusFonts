@@ -6,8 +6,8 @@
 
 подключите в скетче нужный шрифт:
 
+```с++
 #include "FontsRus/CrystalNormal12.h"
-
 #include "FontsRus/Bat8.h"
 
 tft.setFont(&CrystalNormal12pt8b);
@@ -21,3 +21,4 @@ tft.setTextSize(1);
 tft.setCursor (2, 200);
 tft.print("01234");
 tft.setFont();
+```
